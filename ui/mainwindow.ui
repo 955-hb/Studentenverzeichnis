@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>470</width>
+    <height>564</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableWidget" name="studentsTable">
+    <property name="geometry">
+     <rect>
+      <x>5</x>
+      <y>31</y>
+      <width>451</width>
+      <height>471</height>
+     </rect>
+    </property>
+    <attribute name="horizontalHeaderVisible">
+     <bool>true</bool>
+    </attribute>
+    <attribute name="horizontalHeaderDefaultSectionSize">
+     <number>110</number>
+    </attribute>
+    <attribute name="verticalHeaderVisible">
+     <bool>false</bool>
+    </attribute>
+    <row>
+     <property name="text">
+      <string>0</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>1</string>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string>Vorname</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Nachname</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Studienfach</string>
+     </property>
+    </column>
+    <item row="0" column="0">
+     <property name="text">
+      <string>Max</string>
+     </property>
+    </item>
+    <item row="0" column="1">
+     <property name="text">
+      <string>Mustermann</string>
+     </property>
+    </item>
+    <item row="0" column="2">
+     <property name="text">
+      <string>Informatik</string>
+     </property>
+    </item>
+    <item row="1" column="0">
+     <property name="text">
+      <string>Erika</string>
+     </property>
+    </item>
+    <item row="1" column="1">
+     <property name="text">
+      <string>Musterfrau</string>
+     </property>
+    </item>
+    <item row="1" column="2">
+     <property name="text">
+      <string>Mathematik</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QWidget" name="horizontalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>510</y>
+      <width>441</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="newEntryBTN">
+       <property name="text">
+        <string>Neuer Eintrag</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="saveBTN">
+       <property name="text">
+        <string>Speichern</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
